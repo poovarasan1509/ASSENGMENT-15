@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+            
+            console.log("-----TASK 1  add an element in an array-----");
+
+
+            let array = [10 , 20 , 30 , 40 , 50];
+            
+            array.push(60);
+            
+            console .log(array);
+
+
+
+            console.log("-----TASK 2  remove the the last elements-----");
+
+             let array1 = [100 , 200 , 300 , 400 , 500 , 600];
+             
+             array1.pop();
+            
+             console .log(array1);
+
+
+
+             console.log("-----TASK 3 add an element at the beginning  -----")
+
+             let array2 = [2 , 3 , 4 , 5];
+             
+             array2.unshift(1);
+             
+             console.log(array2);
+
+
+
+             console.log("-----TASK 4 remove the first element-----")
+
+             let array3 = [15 , 25 , 35 , 45 , 55 , 65];
+
+             array3.shift();
+
+             console.log(array3);
+
+
+             console.log("-----TASK 5 display the all element-----");
+
+              let array4 = [100 , 200 , 300 , 400 , 500 ];
+
+              array4.forEach(function(value) {
+
+              console.log(value);
+              });
+
+              console.log("-----TASK 6 find the sum of array element-----");
+
+              let array5 = [10 , 30 , 40 , 50 , 80];
+
+              let sum = 0;
+
+              array.forEach(function(value){
+                
+                sum = sum + value;
+              });
+              console.log("sum =", sum);
+
+
+              console.log("-----TASK 7 find the largest number in the array -----");
+
+              let array6 = [30 , 45 ,  60 , 82 , 100];
+
+              let largest =  Math.max(...array6);
+
+              console .log("largest =", largest);
+
+
+              console.log("-----TASK 8 count even and odd numbers-----");
+
+              let array7 = [5 , 10 , 15 , 20 , 25 , 30];
+
+              let even = 0;
+              let odd = 0;
+
+              array7.forEach(function(value) {
+                if (value % 2 == 0){
+                    even++;
+                }
+                else{
+                    odd++;
+                }
+              });
+              console.log("even =", even);
+              console.log("odd =", odd);
+
+
+              console.log("-----TASK 9 print array element in reverse order-----");
+
+              let array8 = [11 , 12 , 13 , 14 , 15 , 16];
+
+              for (let i = array8.length - 1; i >= 0; i--)
+              
+              {
+                console.log(array8(i));
+              }
+
+
+              console.log("-----TASK 10 search for an element in an array-----");
+
+
+              let array9 = [100 , 200 , 300 , 400 , 500];
+              let search = 300;
+
+              if(array9.includes(search)) 
+              {
+                console.log("element found");
+              }
+
+              else{
+                console.log("element not found");
+              }
+
+
+
+
+              
+
+
+
+              
+           
+  
+    </script>
+</head>
+<body>
+    <h1>wecome to built in function and arrays.......</h1>
+    
+</body>
+</html>
